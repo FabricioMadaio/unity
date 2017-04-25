@@ -49,6 +49,7 @@
      <Compile Include="Assets\scripts\polygon\cylinderBuilder.cs" />
      <Compile Include="Assets\scripts\polygon\polygonRoller.cs" />
      <Compile Include="Assets\scripts\polygon\polygonStart.cs" />
+     <Compile Include="Assets\scripts\polygon\testina.cs" />
      <Compile Include="Assets\scripts\roller.cs" />
      <Compile Include="Assets\scripts\start.cs" />
  <Reference Include="UnityEngine.UI">

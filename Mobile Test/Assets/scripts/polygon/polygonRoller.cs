@@ -107,10 +107,10 @@ public class polygonRoller : MonoBehaviour {
 			Quaternion startingRot = cylinder.transform.rotation;
 
 			//figures appear every 60 degrees;
-			symbol = (int)((rotation.x - angleOffset ) / degreesPerSymbol);
+			int s = (int)((rotation.x - angleOffset ) / degreesPerSymbol);
 
 			//target orientation
-			rotation.x = symbol * degreesPerSymbol;
+			rotation.x = s * degreesPerSymbol;
 			Quaternion targetRot = Quaternion.Euler (rotation);
 
 			while (elapsedTime < time) {
@@ -142,6 +142,10 @@ public class polygonRoller : MonoBehaviour {
 
 		for(int i=0;i<r.Length;i++)
 			r[i].material.SetColor("_EmissionColor", c);
+	}
+
+	public void setSymbolValue(int s){
+		symbol = s;
 	}
 
 	public int getSymbolValue(){
