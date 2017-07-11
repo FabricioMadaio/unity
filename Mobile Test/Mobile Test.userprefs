@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\polygon\testina.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\polygon\polygonStart.cs">
     <Files>
-      <File FileName="Assets\scripts\roller.cs" Line="138" Column="3" />
-      <File FileName="Assets\scripts\start.cs" Line="78" Column="3" />
-      <File FileName="Assets\scripts\polygon\polygonRoller.cs" Line="151" Column="27" />
-      <File FileName="Assets\scripts\polygon\polygonStart.cs" Line="11" Column="45" />
-      <File FileName="Assets\scripts\polygon\cylinderBuilder.cs" Line="28" Column="97" />
-      <File FileName="Assets\scripts\polygon\testina.cs" Line="19" Column="3" />
+      <File FileName="Assets\scripts\roller.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\start.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\polygon\polygonRoller.cs" Line="94" Column="13" />
+      <File FileName="Assets\scripts\polygon\polygonStart.cs" Line="41" Column="43" />
+      <File FileName="Assets\scripts\polygon\cylinderBuilder.cs" Line="18" Column="68" />
+      <File FileName="Assets\scripts\polygon\testina.cs" Line="18" Column="98" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
